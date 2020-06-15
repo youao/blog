@@ -3,12 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>youao's blog</title>
 </head>
 <body>
     <h1>Hello Index.html</h1>
-    <nav>
+    <!-- <nav>
         <a href="./test.html">to test</a>
-    </nav>
+    </nav> -->
+
+    <div id="app"></div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        getFile('https://youao.github.io/blog/test.md', function(res) {
+            document.getElementById('app').innerHTML = marked(res);
+        });
+
+        function getFile(url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    callback && callback(xhr.responseText);
+                }
+            }
+            xhr.open("GET", url, true);
+            xhr.send();
+        } -->
+    </script>
 </body>
 </html>
