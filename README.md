@@ -23,10 +23,13 @@ align-items
 align-content
 
 flex-direction属性决定主轴的方向（即项目的排列方向）。
+``` css
 .box {
   flex-direction: row | row-reverse | column | column-reverse;
 }
-
+```
 ...
 献上阮一峰大神教程
 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+
+[盒模型](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
